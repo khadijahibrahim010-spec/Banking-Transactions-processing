@@ -4,7 +4,11 @@ account_number= "ACC1001"
 balance= 5000
 deposit= 1000
 balance= balance + deposit
-print("New balance:",)
+print("New balance:",balance)
 withdrawal= 500
 balance= balance-withdrawal
 print("Balance after withdrawal:", balance)
+if withdrawal <= balance:
+         print("withdrawal successful")
+
+  
