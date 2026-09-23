@@ -6,9 +6,7 @@ deposit= 1000
 balance= balance + deposit
 print("New balance:",balance)
 withdrawal= 500
-balance= balance-withdrawal
-print("Balance after withdrawal:", balance)
 if withdrawal <= balance:
+         balance= balance - withdrawal
          print("withdrawal successful")
-
-  
+print("Balance after withdrawal:",balance)  
