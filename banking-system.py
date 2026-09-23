@@ -10,3 +10,6 @@ if withdrawal <= balance:
          balance= balance - withdrawal
          print("withdrawal successful")
 print("Balance after withdrawal:",balance)  
+transfer= 1000
+balance=balance-transfer
+print("Balance after transfer:",balance)
