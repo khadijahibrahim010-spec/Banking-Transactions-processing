@@ -7,3 +7,4 @@ balance= balance + deposit
 print("New balance:",)
 withdrawal= 500
 balance= balance-withdrawal
+print("Balance after withdrawal:", balance)
